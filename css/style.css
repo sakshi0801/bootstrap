@@ -1,0 +1,60 @@
+body{
+	font-family: 'Nunito', sans-serif;
+}
+.jumbotron{
+	background: url('../img/option.png') center center no-repeat;
+	background-size: cover;
+	color: black;
+	height:400px;
+	margin-top: 40px;
+	text-align: center;
+	align-items: center;
+}
+.jumbotron .data{
+	position: relative;
+	text-align: right;
+	margin-top: 35px;
+}
+.modal{
+	margin-top: 20px;
+	color: white;
+}
+#hero-caption{
+	width: 100%;
+}
+.card-group{
+	padding-top: 20px;
+}
+.destination{
+	padding-top: 20px;
+}
+.carousel-item{
+	margin-top: 20px;
+	align-items: center;
+}
+.carousel-caption{
+	color: black;
+}
+.nav-tabs a{
+	margin-right: 10px;
+}
+.col-sm-6{
+	margin-top: 30px;
+}
+#myCarousel{
+	margin-top: 20px;
+}
+#myCarousel h2{
+	text-align: center;
+}
+@media only screen and (max-width: 600px) {
+	.jumbotron h1{
+		font-size: 40px;
+	}
+	.jumbotron p{
+		font-size: 15px;
+	}
+	.nav-link a{
+		font-size: 30px;
+	}
+}
