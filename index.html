@@ -5,10 +5,12 @@
   <meta name="description" content="flight booking">
   <meta name="keywords" content="AIRLINE,flight,checkin,destination,places,fare calendar,flight schedule,flight status">
   <meta name="author" content="Sakshi">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AIRLINE</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.min.css">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
@@ -95,22 +97,33 @@
   <!-- Grid System -->
   <section>
       <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <img src="img/flight.png" alt="Book Flight">
-            <h4><a href="#">book flight</a></h4>
-            <p>You can book flights online from anywhere, anytime. This provide a vast list of flights to your desired destination</p>  
+        <div class="row" id="features">
+          <div class="col-sm-4 feature">
+          	<div class="panel">
+          		<img src="img/flight.png" alt="Book Flight">
+          		<div class="panel-heading">
+          			<h4 class="panel-title"> book flight </h4>
+          		</div>
+          		<p>You can book flights online from anywhere, anytime. This provide a vast list of flights to your desired destination.</p>
+          	</div>
           </div>
           <div class="col-sm-4">
-            <img src="img/checkin.png" alt="Check-in">
-            <h4><a href="#">check-in online</a></h4>
-            <p>Now you can do online check-in even before reaching airport. This saves a lot of travel time and energy.</p>
-                
+          	<div class="panel">
+          		<img src="img/checkin.png" alt="Check-in">
+          		<div class="panel-heading">
+          			<h4 class="panel-title">check-in online</h4>
+          		</div>
+          		<p>Now you can do online check-in even before reaching airport. This saves a lot of travel time and energy.</p>
+          	</div>
           </div>
           <div class="col-sm-4">
-            <img src="img/schedule.png" alt="Flight Status">
-            <h4><a href="#">flight status</a></h4>
-            <p>Check your flight status before leaving for the airport. You can manage your schedule accordingly.</p>    
+          	<div class="panel">
+          		<img src="img/schedule.png" alt="Flight Status">
+          		<div class="panel-heading">
+          			<h4 class="panel-title"> flight status </h4>
+          		</div>
+          		  <p>Check your flight status before leaving for the airport. You can manage your schedule accordingly.</p>
+          	</div>
           </div>
         </div>
       </div>
